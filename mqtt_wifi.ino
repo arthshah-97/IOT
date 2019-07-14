@@ -15,7 +15,7 @@ Serial.begin(115200);
 WiFi.init(&Serial);
 while(status!=WL_CONNECTED)
 {
-status=WiFi.begin("FD-28","soham111");
+status=WiFi.begin("Note8","artharth");
 delay(8000);
 }
 client.setServer("iot.eclipse.org",1883);
